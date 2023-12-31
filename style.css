@@ -1,0 +1,80 @@
+
+body{
+    background-image: url(20517024.jpg);
+}
+
+
+
+
+#main-box{
+    width: 30%;
+    height: 455px;
+    background-color: black;
+    margin-left: 455px;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 60px;
+    box-shadow: 0 4px 8px 0 rgba(5, 243, 172, 0.24), 0 6px 20px 0 rgba(5, 30, 173, 0.19);
+    
+}
+#maib-desplay{
+    width: 355px;
+    height: 60px;
+    margin-left: 19px;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: right;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: rgb(168, 188, 241);
+    color: black;
+}
+.bts{
+    width: 80px;
+    height: 50;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(88, 88, 88);
+    font-size: 20px;
+    cursor: pointer;
+}
+.c-but{
+    margin-top: 30px;
+    margin-left: 35px;
+    
+}
+#c{
+    width: 80%;
+    height: 50px;
+    margin-left: 19px;
+    border-radius: 10px;
+    margin-top: 15px;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    font-size: 20px;
+    cursor:  pointer;
+    caret-color: aqua;
+
+}
+.fang{
+    width: 80px;
+    height: 50;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(134, 132, 132);
+    font-size: 20px;
+    cursor: pointer;
+}
+.bts:hover{
+    border: 5px solid rgb(2, 255, 234);
+}
+.fang:hover{
+    border: 5px solid rgb(255, 1, 1);
+}
+#c:hover{
+    color: rgb(100, 71, 71);
+    background-color: rgb(192, 32, 32);
+    border: 5px solid rgb(2, 255, 213);
+}

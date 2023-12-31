@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>SOLV NEW</title>
+</head>
+<body class="ch-bg">
+    
+    <div  id="main-box">
+        <input type="text" id="maib-desplay" disabled>
+        <div class="c-but">
+            <button class="bts" onclick="onetime(7)">7</button>
+            <button class="bts" onclick="onetime(8)">8</button>
+            <button class="bts" onclick="onetime(9)">9</button>
+            <button  class="fang" onclick="onetime('+')">+</button>
+            <br>
+            <button class="bts" onclick="onetime(4)">4</button>
+            <button class="bts" onclick="onetime(5)">5</button>
+            <button class="bts" onclick="onetime(6)">6</button>
+            <button class="fang" onclick="onetime('-')">-</button>
+            <br>
+            <button class="bts" onclick="onetime(1)">1</button>
+            <button class="bts" onclick="onetime(2)">2</button>
+            <button class="bts" onclick="onetime(3)">3</button>
+            <button class="fang" onclick="onetime('/')">/</button>
+            <br>
+            <button class="bts" onclick="onetime('.')">.</button>
+            <button class="bts" onclick="onetime(0)">0</button>
+            <button class="bts" onclick="tottel('=')">=</button>
+            <button class="fang" onclick="onetime('*')">*</button>
+            
+            <button id="c" onclick="none()">CLEAR</button>
+
+        </div>
+
+    </div>
+    <script src="scrept.js"></script>
+</body>
+</html>
